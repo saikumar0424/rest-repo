@@ -26,12 +26,13 @@ public class PatientServiceImpl implements PatientService {
 	}
 
 	private void init() {
+		// this my first change after commit
 		patient patent = new patient();
 		patent.setId(pid);
 		patent.setName("sai");
 		patients.put(patent.getId(), patent);
 		addonemore();
-
+         // this is my second commit before staging 
 	}
 
 	private void addonemore() {
